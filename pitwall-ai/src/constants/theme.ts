@@ -1,5 +1,5 @@
 // Design tokens for PitWall AI
-// Simplified for SDK 54 compatibility — uses system fonts as fallback
+// SDK 54 compatibility — complete color, font, type, spacing and radius tokens
 export const PitWallTheme = {
   colors: {
     background: '#121414',
@@ -67,10 +67,34 @@ export const PitWallTheme = {
     full: 999,
   },
   fonts: {
-    // Use system default — custom fonts loaded optionally
     body: undefined,
     headline: undefined,
     headlineBold: undefined,
+    headlineXl: undefined,
+    dataMono: undefined,
     mono: undefined,
+    label: undefined,
+  },
+  type: {
+    headlineXl: {
+      fontSize: 28,
+      lineHeight: 34,
+    },
+    headlineMd: {
+      fontSize: 20,
+      lineHeight: 26,
+    },
+    body: {
+      fontSize: 14,
+      lineHeight: 20,
+    },
+    label: {
+      fontSize: 12,
+      lineHeight: 16,
+    },
+    caption: {
+      fontSize: 10,
+      lineHeight: 14,
+    },
   },
 };
