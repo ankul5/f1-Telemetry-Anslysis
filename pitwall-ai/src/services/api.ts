@@ -1,4 +1,4 @@
-see import axios from 'axios';
+import axios from 'axios';
 import { Platform } from 'react-native';
 
 // Default to localhost for web/iOS, 10.0.2.2 for Android emulator, or process.env.EXPO_PUBLIC_API_URL
